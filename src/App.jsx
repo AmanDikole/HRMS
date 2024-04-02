@@ -10,8 +10,8 @@ function App() {
 
   return (
     <>
-    <Login/>
-    {/* <LeftMenu/> */}
+    {/* <Login/> */}
+    <LeftMenu/>
     </>
   )
 }

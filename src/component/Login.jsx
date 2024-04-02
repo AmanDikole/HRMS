@@ -1,5 +1,6 @@
 import React from 'react';
 import "../Style/Login.css"
+import mhp from '../assets/mhp.jpeg';
 const Login = () => {
     return (
         <>
@@ -26,7 +27,9 @@ const Login = () => {
                 </div>
                
             </div>
-            <div className="login_sub_div"></div>
+            <div className="login_sub_div" >
+                <img src={mhp}/>
+            </div>
         </div>
         
        

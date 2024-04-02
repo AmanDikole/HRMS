@@ -1,4 +1,8 @@
 {
+<<<<<<< HEAD
+  "dependencies": {
+    "react-icons": "^5.0.1"
+=======
   "name": "hrms",
   "private": true,
   "version": "0.0.0",
@@ -23,5 +27,6 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.6",
     "vite": "^5.2.0"
+>>>>>>> 5268d656b2fead1e54199897151933edf348beaa
   }
 }

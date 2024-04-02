@@ -1,8 +1,6 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
-import Login from './component/Login'
+import Admin_main_box from './component/Admin_main_box'
 import LeftMenu from './component/leftMenu'
 
 function App() {
@@ -11,7 +9,12 @@ function App() {
   return (
     <>
     {/* <Login/> */}
+    <div className='dashboard_admin'>
+
     <LeftMenu/>
+    <Admin_main_box/>
+    <signUp/>    
+    </div>
     </>
   )
 }

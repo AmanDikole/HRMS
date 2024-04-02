@@ -4,7 +4,7 @@ const LeftMenu = () => {
     return (
         <div className='leftMenuBar'>
             <div className='leftMenu'>
-                aman
+               aman
             </div>
         </div>
     );

@@ -1,0 +1,157 @@
+.admin_main_box{
+    width: 100%;
+    height: 100vh;
+    background: #909090;
+}
+
+.new-case {
+    position:relative;
+    text-align: start;
+    font-weight: 700;
+    font-size: x-large;
+    margin: 1.2em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serifs;
+}
+
+.search {
+    
+    margin: 1.2em;
+    height: 2.5em;
+    width: 25em;
+    border: solid 1.2px black;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: #ffffff;
+
+}
+
+.icon {
+    font-size: 25px;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 16px;
+    /* background:909090; */
+}
+.search_section {
+    height: 2.5em;
+    width: 22em;
+    border: transparent;
+    padding: 12px;
+    font-size: 15px;
+    background:#ffffff ;
+}
+
+.new-case-edit {
+    display: flex;
+    float: right;
+      height:37.5px ;
+      margin-left: 50px;
+      border: solid 1.2px black;
+      padding: 4px;
+      border-radius: 12px;
+      background: #ffffff;
+}
+
+.icon-edit {
+    font-size: 2em;
+    align-items: center;
+    text-align: center;
+}
+
+.button_case{
+    border: transparent;
+    font-size: medium;
+    background-color: transparent;
+}
+.upperBar{
+    display: flex;
+    justify-content:start;
+    align-items: center;
+    gap: 40px;
+}
+.drowpdown{
+    margin-left: 450px;
+
+}
+.drowpdown select{
+    height: 37.5px;
+    border-radius: 8px;
+ margin-top: 15px;   
+ border: solid 1.2px black ;
+}
+
+.casesList{
+    width: 100%;
+    height: 100%;
+}
+.listBox{
+    width: 100%;
+    height:100%;
+    padding-top: 18px;
+
+    background: rgb(255, 255, 255);
+    border-radius: 18px 18px 0px 0px;
+}
+.list{
+    font-size: 18px;
+    display: flex;
+    /* margin-right: 15px; */
+    border-bottom:solid 1.2px rgb(153, 0, 255) ;
+    
+}
+.list p:nth-child(1){
+    font-size:18px;
+    margin-left: 25px;
+   
+    
+}
+.list p:nth-child(2){
+    font-size:18px;
+    margin-left: 525px;
+    width: 180px;
+    overflow: hidden;
+   
+    
+}
+.list p:nth-child(3){
+    font-size:18px;
+    margin-left: 450px;
+   
+    
+}
+.listitem{
+    font-size: 18px;
+    display: flex;
+margin: 0 10px;
+    margin-top: 10px;
+    /* background: #000000; */
+    height: 35px;
+    padding-top: 5px;
+    /* border-radius: 12px; */
+    border-bottom:solid 1.2px black ;
+    
+}
+.listitem p:nth-child(1){
+    font-size:18px;
+    margin-left: 50px;
+   
+    
+}
+.listitem p:nth-child(2){
+    font-size:18px;
+    margin-left: 325px;
+    width: 580px;
+    height: 20px;
+    overflow: hidden;
+    text-align: center;
+}
+.listitem p:nth-child(3){
+    font-size:18px;
+    margin-left: 250px;
+   
+    
+}

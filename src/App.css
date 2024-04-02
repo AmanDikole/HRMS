@@ -1,3 +1,11 @@
+<<<<<<< HEAD
 .mainBox{
     display: flex;
 }
+=======
+.dashboard_admin{
+display: flex;
+overflow: hidden;
+
+}
+>>>>>>> 60bee9a0af39953184b714c5f4df8de000f4e6cf

@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Login from './component/Login'
 import LeftMenu from './component/leftMenu'
+import MenuUser from './component/MenuUser'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -11,7 +12,8 @@ function App() {
   return (
     <>
     {/* <Login/> */}
-    <LeftMenu/>
+    {/* <LeftMenu/> */}
+    <MenuUser/>
     </>
   )
 }
